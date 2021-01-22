@@ -8,5 +8,5 @@ fixed :- 	The element is positioned relative to the browser window
 sticky :- The element is positioned based on the user's scroll position
 
 
-![alt text](https://github.com/[shubhamgoel01]/[CSS-position-property]/blob/[branch]/css position.png?raw=true)
+![alt text](https://github.com/[shubhamgoel01]/[CSS-position-property]/css position.png?raw=true)
 
