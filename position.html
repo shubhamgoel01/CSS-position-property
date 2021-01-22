@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS position</title>
+    <style>
+      .box {
+        border: 2px solid white;
+        height: 110px;
+        width: 110px;
+        display: inline-block;
+        border-radius: 15px;
+        padding: 5px;
+        
+      }
+      #box1 {
+        position: absolute;
+        left: 200px;
+        top: 200px;
+        background-color: yellow;
+      }
+      #box2 {
+        position: relative;
+        top: 150px;
+        left: 700px;
+        background-color: skyblue;
+      }
+      #box3 {
+        position: fixed;
+        background-color: lightcoral;
+        bottom: 20px;
+        right: 120px;
+        
+      }
+      #box4{
+          position: sticky;
+          background-color: orange;
+          left: 50px;
+          top: 20px;
+      }
+      .container {
+        height: 3000px;
+        background-color: grey;
+        border: 2px solid red;
+        font-size: 13px;
+      }
+      h2{
+        text-align: center;
+        border: 2px solid blue;
+        margin: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>TRY TO SCROLL PAGE UP AND DOWN</h2>
+      <div id="parent" class="box">1<br> <b>parent</b></div>
+      <div id="box1" class="box">2<br><b> absoluete</b> left: 200px;
+        top: 200px;</div>
+      <div id="box2" class="box">3<b>relative</b>   top: 150px;
+        left: 700px; </div>
+      <div id="box3" class="box">4<b>fixed</b> bottom: 20px;
+        right: 120px;</div>
+      <div id="box4" class="box"><b>Sticky</b> left: 50px;
+        top: 10px;</div>
+  </body>
+</html>
